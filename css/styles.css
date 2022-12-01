@@ -1,0 +1,195 @@
+:root {
+    --text-color: #434455;
+    --dark-color: #2E2F42;
+    --primarybrand-color: #4d5ae5;
+    --bt-color:#404BBF;
+    --bg-color: #FFFFFF;
+    --cloud-color:#F4F4FD;
+    --cornflower-color:#E7E9FC;
+}
+.header {
+    background: var(--bg-color);
+    text-decoration: none;
+}
+body {
+    background-color:var(--bg-color);
+    color: var(--text-color);
+    font-family:'Roboto', sans-serif;
+    text-decoration: none;
+}
+.hero-name {
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    color: var(--bg-color);
+}
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    text-decoration: none;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--primarybrand-color);
+}
+.logo:hover,
+.logo:focus {
+    color: var(--primarybrand-color);
+}
+.studio {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    text-decoration: none;
+    line-height: 1.33;
+    letter-spacing: 0.03em;
+    color: var(--dark-color);
+    text-transform: uppercase;
+}
+.studio:hover,
+.studio:focus {
+    color: var(--text-color);
+}
+
+.link:hover,
+.link:focus {
+    color: var(--text-color);
+}
+.link-contacts:hover,
+.link-contacts:focus {
+    color: var(--primarybrand-color);
+}
+.link:active {
+    color: var(--primarybrand-color);
+}
+.link {
+    color: var(--dark-color);
+    text-decoration: none;
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.link-contacts {
+    color: var(--text-color);
+    text-decoration: none;
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.buttons:hover,
+.buttons:focus {
+    background-color: var(--primarybrand-color);
+   color: var(--bg-color);
+}
+.buttons:active {
+    background-color: var(--bt-color);
+    color: var(--bg-color);
+}
+.list {
+    list-style: none;
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text-color);
+}
+.hero {
+    background: var(--dark-color);
+}
+
+.buttons {
+    background:var(--primarybrand-color);
+    color: var(--bts-color);
+}
+.buttons {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    color:var(--bg-color);
+}
+.title {
+    text-decoration: none;
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color:var(--dark-color);
+}
+.title-cards {
+    width: 264px;
+    height: 24px;
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color:var(--dark-color);
+}
+.team {
+    background:var(--bb-color);
+}
+.team-cards {
+    background:var(--bg-color);
+}
+.footer {
+    background: var(--dark-color);
+    color: var(--cornflower-color);
+}
+.studio-footer {
+    color:var(--cloud-color);
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.logo-footer {
+    color: var(--primarybrand-color);
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.studio-footer:hover {
+    background-color: var(--primarybrand-color);
+    color: var(--cloud-color);
+}
+.studio-footer:focus {
+    background-color: var(--primarybrand-color);
+    color: var(--cloud-color);
+}
+.bts {
+    font-family:'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--primarybrand-color);
+    background-color: var(--cloud-color);
+    text-decoration:none;
+}
+.bts:hover {
+    background-color: var(--primarybrand-color);
+    color: var(--cloud-color);
+}
+.bts:focus {
+    background-color: var(--primarybrand-color);
+    color: var(--cloud-color);
+}
