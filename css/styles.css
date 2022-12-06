@@ -16,8 +16,12 @@ body {
     color: var(--text-color);
     font-family:'Roboto', sans-serif;
 }
-h1,h2,h3,p,ul {
+h1,h2,p,ul {
     margin: 0;
+}
+h3 {
+    margin-top: 0px;
+    margin-bottom: 8px;
 }
 img {
     display: block;
@@ -48,8 +52,7 @@ img {
 .contacts-item {
 display: flex;
     margin-right: 40px;
-    padding-top: 24px;
-    padding-bottom: 24px;
+ 
 }
 .contacts-item:last-child {
 margin-right: 0; 
@@ -58,7 +61,8 @@ margin-right: 0;
     margin-left: auto;
 }
 .nav-link {
-    display: flex; 
+    display: flex;
+    
 }
 .link-logo {
     display: flex;
@@ -69,19 +73,18 @@ margin-right: 0;
 }
 .link-list {
     display: flex;
-    padding-top: 24px;
-    padding-bottom: 24px;
     margin-right: 40px;
 }
 .link {
     color: var(--dark-color);
     text-decoration: none;
     font-family: inherit;
-    font-weight: 500;
+    font-weight: 500px;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    margin-right: 40px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 .link-contacts {
     color: var(--text-color);
@@ -90,6 +93,8 @@ margin-right: 0;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
  /* < !--main--> */
 .hero {
@@ -115,7 +120,7 @@ text-align: center;
     margin-right: auto;
     margin-left: auto;
     font-family: inherit;
-    font-weight: 500;
+    font-weight: 500px;
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
@@ -123,7 +128,7 @@ text-align: center;
 }
 .logo {
     font-family: 'Raleway', sans-serif;
-    font-weight: 800;
+    font-weight: 800px;
     font-size: 18px;
     line-height: 1.33;
     text-decoration: none;
@@ -144,7 +149,7 @@ text-align: center;
 }
 .studio {
     font-family: 'Raleway', sans-serif;
-    font-weight: 800;
+    font-weight: 800px;
     font-size: 18px;
     text-decoration: none;
     line-height: 1.33;
@@ -174,7 +179,7 @@ text-align: center;
 }
 .buttons {
     font-family: inherit;
-    font-weight: 500;
+    font-weight: 500px;
     font-size: 16px;
     line-height: 1.19;
     background: var(--primarybrand-color);
@@ -182,13 +187,13 @@ text-align: center;
 }
 /* < !--Feature--> */
 .section {
-    padding-top: 120px;
+   padding-top: 120px;
    padding-bottom: 120px;
 }
 .title {
     text-align: center;
     font-family: inherit;
-    font-weight: 500;
+    font-weight: 500px;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
@@ -197,16 +202,12 @@ text-align: center;
    margin-bottom: 72px;
 }
 .title-cards {
-    display: flex;
-    width: 264px;
-    height: 24px;
-    font-family: inherit;
-    font-weight: 500;
+    font-weight: 500px;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color:var(--dark-color);
-    gap: 24px;
+    margin-bottom: 8px;
 }
 .list {
     display: flex;
@@ -239,7 +240,15 @@ text-align: center;
         letter-spacing: 0.02em;
         color: var(--text-color);
         padding-left: 0px;
-       gap: 24px;
+        gap: 24px;
+}
+.list-cards-box {
+        width: 264px;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: var(--text-color);
+        padding-left: 0px;
 }
 .team-cadrs_box {
     padding-top: 32px;
@@ -247,9 +256,8 @@ text-align: center;
         padding-left: 16px;
         padding-right: 16px;       
 }
-.section-cards {
-   padding-top: 120px;
-   padding-bottom: 120px;
+.section-work {
+    padding-bottom: 120px;
 }
 /* < !--Footer--> */
 .footer {
@@ -270,7 +278,7 @@ text-align: center;
 }
 .logo-footer {
     font-family: 'Raleway', sans-serif;
-        font-weight: 800;
+        font-weight: 800px;
         font-size: 18px;
         line-height: 1.17;
         text-decoration: none;
@@ -283,7 +291,7 @@ text-align: center;
     color:var(--cloud-color);
     font-family: 'Raleway', sans-serif;
     font-style: normal;
-    font-weight: 800;
+    font-weight: 800px;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
@@ -296,7 +304,7 @@ text-align: center;
 }
 .filter-btn {
     font-family:inherit;
-    font-weight: 500;
+    font-weight: 500px;
     font-size: 16px;
     line-height: 1.5;
     color: var(--primarybrand-color);
